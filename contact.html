@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elisabeth Neben</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">Elisabeth Neben</a>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Willkommen</a></li>
+          <li><a href="./about-me.html">Über mich</a></li>
+          <li><a href="./projects.html">Projekte</a></li>
+          <li><a href="./cv.html">Lebenslauf</a></li>
+          <li><a href="./contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-section">
+        <p>
+          Sie möchten mehr über mich erfahren oder haben Interesse an einer
+          Zusammenarbeit? Ich freue mich darauf, von Ihnen zu hören!
+          Kontaktieren Sie mich gerne über das Kontaktformular oder per E-Mail.
+        </p>
+        <form id="contact-form" name="contact-form" action="">
+          <div>
+            <label for="sender-mail">Ihre E-Mail-Adresse:</label>
+            <input type="mail" id="sender-mail" name="sender-mail" required />
+          </div>
+          <div>
+            <label for="message">Ihre Nachricht:</label>
+            <textarea
+              id="message"
+              name="message"
+              cols="30"
+              rows="20"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" value="send" />
+          </div>
+        </form>
+        <div class="contact-me">
+          <a href="mailto:elisabeth.neben@posteo.de">E-Mail</a>
+        </div>
+        <div class="contact-me">
+          <a href="https://www.linkedin.com/in/elisabeth-neben-79a608251/"
+            >LinkedIn</a
+          >
+          <!--LinkedIn-Profil noch komplett ohne Inhalt-->
+        </div>
+        <div class="contact-me">
+          <a href="https://github.com/eneben">GitHub</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
